@@ -1,0 +1,94 @@
+
+body{
+	background-color: #4B299F;
+}
+
+div{
+    background-color: #e44c65; 
+}
+
+input,textarea,select{
+	font-size: 20px;
+	color: white;
+	background: #0BEA7B;
+	text-decoration: none;
+	border: none;
+	font-family: Arial;
+	}
+form p{
+	font-size: 20px;
+	color: white;
+	font-family: Arial;
+}
+header h1{
+	text-align: center;
+	color: white;
+	font-family: Arial;
+	text-shadow: 2px 2px 4px black;
+	animation: arbolitobienloco .1s alternate infinite;
+}
+
+
+nav{
+	margin-top: 10px;
+  width:100%;
+  background-color: black;
+  color: white;
+  height: 40px;
+  font-family: sans-serif, Arial;
+  font-size: 14px;
+
+}
+nav ul{
+	list-style:none;
+	text-decoration: none;
+	margin: 0px auto;
+	width: 30%;
+}
+
+nav >ul >li{
+	line-height: 40px;
+	float: left;
+	border-right: 1px solid #e44c65;
+
+}
+
+
+nav >ul >li a{
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	color:white;
+	text-decoration: none;
+}
+
+nav >ul >li a:first-child{
+	border-left: 1px solid #e44c65;
+}
+
+nav >ul >li:hover{
+	background-color:#e44c65;
+	box-shadow: 0px 0px 8px #1c1d26 inset;
+}
+
+form{
+	margin-top: 5%;
+	text-align: center;
+	color: white;
+}
+#selec{
+	margin-top: 10%;
+	text-align: center;
+	color: white;
+	font-family: Arial;
+	font-size: 30px;
+	
+	animation: adelante-atrasquisde 2s alternate infinite;
+	text-shadow: 2px 2px 2px yellow, 2px 2px 2px yellow, 2px 2px 2px yellow;
+}
+*{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
